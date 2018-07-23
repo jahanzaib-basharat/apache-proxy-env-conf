@@ -1,5 +1,5 @@
 FROM debian:wheezy
-LABEL maintainer "Jahanzaib Basharat<jbasharat@imolainformatica.it>"
+LABEL maintainer "Jahanzaib<jahanzaib87@gmail.com>"
 
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get -yq install \
